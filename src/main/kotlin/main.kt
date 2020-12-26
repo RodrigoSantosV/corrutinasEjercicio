@@ -37,7 +37,6 @@ fun amigoA() {
             delay(4000)
             println("El amigo Amigo A ha vuelto con el cubo de agua")
             cubosActuales++
-            println("Llevo $cubosActuales llenos")
             hamaca("Amigo A", 1000)
         }
         if (cubosActuales == CUBOS_NECESARIOS && lenaActual == LENA_NECESARIA && ramasActuales == RAMAS_NECESARIAS && comidaActual == COMIDA_NECESARIA)
