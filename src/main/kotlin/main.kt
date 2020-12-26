@@ -72,7 +72,11 @@ suspend fun hacha(persona: String, tiempo: Long) {
             println("El amigo $persona coge el hacha")
             delay(tiempo)
             println("El amigo $persona deja el hacha")
-            println("El amigo $persona vuelve con la leña")
+            if(persona=="Amigo B") {
+                println("El amigo $persona vuelve con la leña")
+            }else {
+                println("El amigo $persona vuelve con la comida")
+            }
         }
     }
 }
